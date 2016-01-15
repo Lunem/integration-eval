@@ -1,0 +1,414 @@
+* {
+margin: 0; padding: 0;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  font-family: 'arial', sans-serif;
+}
+
+header {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+
+}
+
+header img {
+  margin-top: 60px;
+  margin-bottom: -50px;
+  margin-right: 20px;
+  z-index: 10;
+}
+
+#booking {
+  flex-direction:column;
+  margin-left: 20px;
+}
+
+#booking h1 {
+  font-size: 55px;
+    color: #233639;
+    margin-top: 170px;
+    line-height: 50px;
+}
+
+#booking p {
+  color: #233639;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 50px;
+}
+
+input {
+  border-color: #E9EBEB;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  padding: 15px 32px;
+  width: 280px;
+  text-align: left;
+  font-family: arial, sans-serif;
+  color: #E9EBEB;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+
+}
+
+#iparent {
+  background-color: #233639;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+
+}
+
+button {
+  background-color: #BBC1F5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+
+.chevron {
+  display: inline;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+#triangle{
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100px 0 100px;
+  border-color: #ffffff transparent transparent transparent;
+
+}
+
+.pitch{
+  position: relative;
+  background-image: url('images/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: auto;
+
+}
+
+.pitch h2{
+  color: white;
+  text-align: center;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+.hiring {
+ position: relative;
+ background-image: url('images/bg2.jpg');
+ background-size: cover;
+ height: 425px;
+ width: auto;
+
+}
+
+.hiring h1{
+  color: white;
+  font-size: 55px;
+  font-weight:bold;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.hiring h3{
+ color: white;
+ font-weight: lighter;
+ font-size: 25px;
+ text-align: center;
+ line-height: 50px;
+}
+
+#poppinsitter {
+  margin-left: 50%;
+}
+
+.location {
+  background-image: url('images/bg4.jpg');
+  background-size: cover;
+  height: 260px;
+  width: auto;
+}
+
+.location h2{
+  font-size: 36px;
+  text-align: center;
+  color: #233639;
+  font-weight:bold;
+  padding-top: 120px;
+}
+
+.location h3{
+ color: #233639;
+ font-weight: lighter;
+ font-size: 25px;
+ text-align: center;
+ line-height: 50px;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin: auto;
+
+}
+
+.childcare{
+  flex: 1;
+  background-color: #BBC1F5;
+  text-align: left;
+  align-items: center;
+}
+
+.childcare h2{
+  color: white;
+  font-size: 36px;
+  font-weight:bold;
+  padding-top: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.divider{
+  border-top: 6px solid white;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.childcare h3{
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  line-height: 50px;
+  padding-left: 60px;
+}
+
+.img1{
+  flex: 1;
+  background-image: url('images/img1.jpg');
+  background-size: cover;
+  width: 50%;
+}
+
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin: auto;
+}
+
+.img2{
+  flex: 1;
+  background-image: url('images/img2.jpg');
+  background-size: cover;
+  width: 50%;
+}
+
+.network{
+  flex: 1;
+  background-color: white;
+  align-items: center;
+}
+
+.network h2{
+  font-size: 36px;
+  text-align: left;
+  color: #233639;
+  font-weight:bold;
+  padding-top: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.star{
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.network i{
+  color: #32FBED;
+  margin-right: 15px;
+}
+
+.network li{
+ /* list-style-type:none; */
+ color: #233639;
+ text-align: justify;
+ font-size: 22px;
+ line-height: 50px;
+ margin-left: 75px;
+ margin-right: 60px;
+}
+
+.easy {
+ position: relative;
+ background-image: url('images/bg3.jpg');
+ background-size: cover;
+ height: 425px;
+ width: auto;
+ padding-left: 60px;
+}
+
+.easy h2{
+  color: white;
+  font-size: 36px;
+  font-weight:bold;
+  text-align: left;
+  padding-top: 120px;
+}
+
+.easy h3{
+ color: white;
+ font-weight: lighter;
+ font-size: 25px;
+ text-align: left;
+ line-height: 50px;
+ margin-bottom: auto;
+}
+
+.easy .divider{
+  border-top: 6px solid white;
+  margin-left: 20px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.row3{
+  display: flex;
+  flex-direction: row;
+  background-color: #32FBED;
+  background-image: url('images/london.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 425px;
+}
+
+.launch{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.launch h2{
+  color: white;
+  font-size: 36px;
+  font-weight:bold;
+  text-align: right;
+  padding-top: 120px;
+  margin-right: 200px;
+}
+
+.registered{
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.registered h1{
+  color: white;
+  font-size: 55px;
+  font-weight:bold;
+  padding-top: 120px;
+
+}
+
+.registered h3{
+  color: white;
+  font-size: 36px;
+
+}
+
+.row4{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  margin: auto;
+}
+
+.img3{
+  flex: 1;
+  background-image: url('images/img3.jpg');
+  background-size: cover;
+  width: 50%;
+}
+
+.whatsin{
+  flex: 1;
+  background-color: white;
+  align-items: center;
+}
+
+.whatsin h2{
+  font-size: 36px;
+  text-align: left;
+  color: #233639;
+  font-weight:bold;
+  padding-top: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.divider{
+  border-top: 6px solid #BBC1F5;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100px;
+}
+
+.whatsin li{
+ /* list-style-type:none; */
+ color: #233639;
+ text-align: justify;
+ font-size: 22px;
+ line-height: 50px;
+ margin-left: 75px;
+ margin-right: 60px;
+}
+
+.invite{
+
+}
