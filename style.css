@@ -19,7 +19,7 @@ header img {
   margin-top: 60px;
   margin-bottom: -50px;
   margin-right: 20px;
-  z-index: 10;
+  z-index: 1;
 }
 
 #booking {
@@ -105,7 +105,6 @@ button {
 }
 
 .pitch{
-  position: relative;
   background-image: url('images/bg1.jpg');
   background-position: center;
   background-size: cover;
@@ -128,11 +127,11 @@ button {
 }
 
 .hiring {
- position: relative;
  background-image: url('images/bg2.jpg');
  background-size: cover;
  height: 425px;
  width: auto;
+ text-align: center;
 
 }
 
@@ -140,7 +139,6 @@ button {
   color: white;
   font-size: 55px;
   font-weight:bold;
-  text-align: center;
   padding-top: 120px;
 }
 
@@ -148,12 +146,11 @@ button {
  color: white;
  font-weight: lighter;
  font-size: 25px;
- text-align: center;
  line-height: 50px;
 }
 
 #poppinsitter {
-  margin-left: 50%;
+
 }
 
 .location {
@@ -279,13 +276,14 @@ button {
  margin-right: 60px;
 }
 
-.easy {
+.easy{
  position: relative;
  background-image: url('images/bg3.jpg');
  background-size: cover;
  height: 425px;
  width: auto;
  padding-left: 60px;
+ padding-bottom: 60px;
 }
 
 .easy h2{
@@ -307,10 +305,7 @@ button {
 
 .easy .divider{
   border-top: 6px solid white;
-  margin-left: 20px;
-  margin-right: 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 60px 30px 20px;
   width: 100px;
 }
 
@@ -410,5 +405,13 @@ button {
 }
 
 .invite{
+ margin: 60px 0 60px 0;
+ text-align: center;
+ height: 250px;
+}
 
+.invite h2{
+  font-size: 36px;
+  color: #233639;
+  line-height: 50px;
 }
