@@ -49,7 +49,6 @@ input {
   padding: 15px 32px;
   width: 280px;
   text-align: left;
-  font-family: arial, sans-serif;
   color: #E9EBEB;
   text-decoration: none;
   display: inline-block;
@@ -65,7 +64,6 @@ input {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: arial, sans-serif;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -79,11 +77,11 @@ button {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  font-family: arial, sans-serif;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 2px;
+  margin-right: 10px;
 }
 
 
@@ -165,15 +163,15 @@ button {
   text-align: center;
   color: #233639;
   font-weight:bold;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .location h3{
- color: #233639;
- font-weight: lighter;
- font-size: 25px;
- text-align: center;
- line-height: 50px;
+   color: #233639;
+   font-weight: lighter;
+   font-size: 25px;
+   text-align: center;
+   line-height: 50px;
 }
 
 .row1{
@@ -200,7 +198,7 @@ button {
   margin-right: 60px;
 }
 
-.divider{
+ .childcare .divider{
   border-top: 6px solid white;
   margin-left: 60px;
   margin-right: 60px;
@@ -243,6 +241,7 @@ button {
   flex: 1;
   background-color: white;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 .network h2{
@@ -250,13 +249,13 @@ button {
   text-align: left;
   color: #233639;
   font-weight:bold;
-  padding-top: 120px;
+  padding-top: 100px;
   margin-left: 60px;
   margin-right: 60px;
 }
 
 .star{
-  margin-left: 40px;
+  margin-left: 55px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -305,7 +304,7 @@ button {
 
 .easy .divider{
   border-top: 6px solid white;
-  margin: 30px 60px 30px 20px;
+  margin: 30px 60px 30px 0;
   width: 100px;
 }
 
@@ -323,6 +322,11 @@ button {
   flex: 1;
   align-items: center;
   justify-content: center;
+  margin-left: 60px;
+}
+
+.launch img{
+
 }
 
 .launch h2{
@@ -330,7 +334,7 @@ button {
   font-size: 36px;
   font-weight:bold;
   text-align: right;
-  padding-top: 120px;
+  padding-top: 200px;
   margin-right: 200px;
 }
 
@@ -339,13 +343,14 @@ button {
   align-items: center;
   justify-content: center;
   text-align: left;
+  padding-top: 180px;
+  margin-left: 200px;
 }
 
 .registered h1{
   color: white;
   font-size: 55px;
   font-weight:bold;
-  padding-top: 120px;
 
 }
 
