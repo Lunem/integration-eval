@@ -12,7 +12,6 @@ header {
    display: flex;
    align-items: flex-start;
    justify-content: center;
-
 }
 
 header img {
@@ -54,8 +53,6 @@ input {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 10px;
-
-
 }
 
 #iparent {
@@ -68,7 +65,6 @@ input {
   display: inline-block;
   font-size: 16px;
   border-radius: 2px;
-
 }
 
 button {
@@ -92,17 +88,16 @@ button {
   margin-left: 20px;
 }
 
-#triangle{
+#triangle {
   margin: auto;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 100px 100px 0 100px;
   border-color: #ffffff transparent transparent transparent;
-
 }
 
-.pitch{
+.pitch {
   background-image: url('images/bg1.jpg');
   background-position: center;
   background-size: cover;
@@ -111,7 +106,7 @@ button {
 
 }
 
-.pitch h2{
+.pitch h2 {
   color: white;
   text-align: center;
   font-family: arial, sans-serif;
@@ -120,8 +115,6 @@ button {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-
-
 }
 
 .hiring {
@@ -130,10 +123,9 @@ button {
  height: 425px;
  width: auto;
  text-align: center;
-
 }
 
-.hiring h1{
+.hiring h1 {
   color: white;
   font-size: 55px;
   font-weight:bold;
@@ -142,16 +134,12 @@ button {
   line-height: 50px;
 }
 
-.hiring h3{
+.hiring h3 {
  color: white;
  font-weight: lighter;
  font-size: 25px;
  line-height: 50px;
  margin-bottom: 30px;
-}
-
-#poppinsitter {
-
 }
 
 .location {
@@ -161,7 +149,7 @@ button {
   width: auto;
 }
 
-.location h2{
+.location h2 {
   font-size: 36px;
   text-align: center;
   color: #233639;
@@ -169,7 +157,7 @@ button {
   padding-top: 100px;
 }
 
-.location h3{
+.location h3 {
    color: #233639;
    font-weight: lighter;
    font-size: 25px;
@@ -177,22 +165,21 @@ button {
    line-height: 50px;
 }
 
-.row1{
+.row1 {
   display: flex;
   flex-direction: row;
   height: 500px;
   margin: auto;
-
 }
 
-.childcare{
+.childcare {
   flex: 1;
   background-color: #BBC1F5;
   text-align: left;
   align-items: center;
 }
 
-.childcare h2{
+.childcare h2 {
   color: white;
   font-size: 36px;
   font-weight:bold;
@@ -201,7 +188,7 @@ button {
   margin-right: 60px;
 }
 
- .childcare .divider{
+ .childcare .divider {
   border-top: 6px solid white;
   margin-left: 60px;
   margin-right: 60px;
@@ -210,7 +197,7 @@ button {
   width: 100px;
 }
 
-.childcare h3{
+.childcare h3 {
   color: white;
   font-weight: lighter;
   font-size: 25px;
@@ -218,7 +205,7 @@ button {
   padding-left: 60px;
 }
 
-.img1{
+.img1 {
   flex: 1;
   background-image: url('images/img1.jpg');
   background-size: cover;
@@ -226,28 +213,28 @@ button {
 }
 
 
-.row2{
+.row2 {
   display: flex;
   flex-direction: row;
   height: 500px;
   margin: auto;
 }
 
-.img2{
+.img2 {
   flex: 1;
   background-image: url('images/img2.jpg');
   background-size: cover;
   width: 50%;
 }
 
-.network{
+.network {
   flex: 1;
   background-color: white;
   align-items: center;
   padding-bottom: 60px;
 }
 
-.network h2{
+.network h2 {
   font-size: 36px;
   text-align: left;
   color: #233639;
@@ -257,18 +244,18 @@ button {
   margin-right: 60px;
 }
 
-.star{
+.star {
   margin-left: 55px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.network i{
+.network i {
   color: #32FBED;
   margin-right: 15px;
 }
 
-.network li{
+.network li {
  /* list-style-type:none; */
  color: #233639;
  text-align: justify;
@@ -278,7 +265,7 @@ button {
  margin-right: 60px;
 }
 
-.easy{
+.easy {
  position: relative;
  background-image: url('images/bg3.jpg');
  background-size: cover;
@@ -288,7 +275,7 @@ button {
  padding-bottom: 60px;
 }
 
-.easy h2{
+.easy h2 {
   color: white;
   font-size: 36px;
   font-weight:bold;
@@ -296,7 +283,7 @@ button {
   padding-top: 120px;
 }
 
-.easy h3{
+.easy h3 {
  color: white;
  font-weight: lighter;
  font-size: 25px;
@@ -305,13 +292,13 @@ button {
  margin-bottom: auto;
 }
 
-.easy .divider{
+.easy .divider {
   border-top: 6px solid white;
   margin: 30px 60px 30px 0;
   width: 100px;
 }
 
-.row3{
+.row3 {
   display: flex;
   flex-direction: row;
   background-color: #32FBED;
@@ -321,18 +308,14 @@ button {
   height: 425px;
 }
 
-.launch{
+.launch {
   flex: 1;
   align-items: center;
   justify-content: center;
   margin-left: 60px;
 }
 
-.launch img{
-
-}
-
-.launch h2{
+.launch h2 {
   color: white;
   font-size: 36px;
   font-weight:bold;
@@ -341,7 +324,7 @@ button {
   margin-right: 200px;
 }
 
-.registered{
+.registered {
   flex: 1;
   align-items: center;
   justify-content: center;
@@ -350,40 +333,38 @@ button {
   margin-left: 200px;
 }
 
-.registered h1{
+.registered h1 {
   color: white;
   font-size: 55px;
   font-weight:bold;
-
 }
 
-.registered h3{
+.registered h3 {
   color: white;
   font-size: 36px;
-
 }
 
-.row4{
+.row4 {
   display: flex;
   flex-direction: row;
   height: 500px;
   margin: auto;
 }
 
-.img3{
+.img3 {
   flex: 1;
   background-image: url('images/img3.jpg');
   background-size: cover;
   width: 50%;
 }
 
-.whatsin{
+.whatsin {
   flex: 1;
   background-color: white;
   align-items: center;
 }
 
-.whatsin h2{
+.whatsin h2 {
   font-size: 36px;
   text-align: left;
   color: #233639;
@@ -393,7 +374,7 @@ button {
   margin-right: 60px;
 }
 
-.divider{
+.divider {
   border-top: 6px solid #BBC1F5;
   margin-left: 60px;
   margin-right: 60px;
@@ -402,7 +383,7 @@ button {
   width: 100px;
 }
 
-.whatsin li{
+.whatsin li {
  /* list-style-type:none; */
  color: #233639;
  text-align: justify;
@@ -412,13 +393,13 @@ button {
  margin-right: 60px;
 }
 
-.invite{
+.invite {
  margin: 60px 0 60px 0;
  text-align: center;
  height: 250px;
 }
 
-.invite h2{
+.invite h2 {
   font-size: 36px;
   color: #233639;
   line-height: 50px;
