@@ -138,6 +138,8 @@ button {
   font-size: 55px;
   font-weight:bold;
   padding-top: 120px;
+  margin-bottom: 30px;
+  line-height: 50px;
 }
 
 .hiring h3{
@@ -145,6 +147,7 @@ button {
  font-weight: lighter;
  font-size: 25px;
  line-height: 50px;
+ margin-bottom: 30px;
 }
 
 #poppinsitter {
